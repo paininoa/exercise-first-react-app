@@ -1,0 +1,12 @@
+.cardWrapper {
+  display: flex;
+}
+
+.card {
+  padding: 1rem;
+  background-color: lightgrey;
+}
+
+img {
+  max-width: 200px;
+}
