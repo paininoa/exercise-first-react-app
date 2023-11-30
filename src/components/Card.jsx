@@ -1,15 +1,15 @@
-import style from "./Card.css";
+import "./Card.css";
 
 const Card = ({
   cardTitle,
   src,
   alt,
-  didascalia = "URCO!!! Hai dimenticato la didascalia!!",
+  didascalia = "Hai dimenticato la didascalia!!",
 }) => {
   return (
-    <div className="card" style={style.card}>
+    <div className="card">
       <h2>{cardTitle}</h2>
-      <img src={src} alt={alt}></img>
+      <img className="img" src={src} alt={alt}></img>
       <p>{didascalia}</p>
     </div>
   );
